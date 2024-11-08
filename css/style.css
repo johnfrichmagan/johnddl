@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.text-primary {
+    color: #333333;
+}
+
+.border-line {
+    border-top: 1px dotted #ccc;
+    margin: 15px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #333333;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #555555;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.register-link a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.register-link a:hover {
+    color: #555555;
+}
+
+.alert {
+    margin-top: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0d0d0d;
+    font-family: Arial, sans-serif;
+    color: #ff99cc;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+}
+
+h3, h4 {
+    text-align: center;
+    color: #ff66b2;
+}
+
+.border-line {
+    border: 1px solid #ff66b2;
+    margin: 10px 0;
+}
+
+.form-group label {
+    color: #ff99cc;
+}
+
+.form-control {
+    background-color: #333;
+    color: #ff99cc;
+    border: 1px solid #ff66b2;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.form-control:focus {
+    border-color: #ff3385;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #ff66b2;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff3385;
+}
+
+.register-link a {
+    color: #ff99cc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.register-link a:hover {
+    color: #ff66b2;
+}
+
+.alert {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #2b2b2b;
+    color: #ff99cc;
+    border-radius: 5px;
+    border-left: 5px solid #ff66b2;
+}
+
+.alert-success {
+    color: #b3ffcc;
+    border-left-color: #33cc33;
+}
+
+.alert-error {
+    color: #ffcccc;
+    border-left-color: #ff3333;
+}
+
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a; /* Dark background */
+    font-family: Arial, sans-serif;
+    color: #ff99cc; /* Light pink text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #333; /* Dark card background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 500px;
+}
+
+h3, h4 {
+    text-align: center;
+    color: #ff66b2; /* Pink color for headings */
+}
+
+hr.border-line {
+    border-top: 1px solid #ff66b2;
+}
+
+.form-group label {
+    color: #ff99cc; /* Light pink for labels */
+}
+
+.form-control {
+    background-color: #444;
+    color: #ff99cc;
+    border: 1px solid #ff66b2;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.form-control:focus {
+    border-color: #ff3385;
+    box-shadow: 0 0 5px rgba(255, 51, 133, 0.8);
+}
+
+.btn-primary {
+    background-color: #ff66b2;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff3385;
+}
+
+.text-link {
+    color: #ff99cc;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+}
+
+.text-link:hover {
+    color: #ff66b2;
+}
